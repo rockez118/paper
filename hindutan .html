@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HINDUTANI Paper Agency</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('paper-texture.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    /* Menu Bar Styling */
+    nav {
+      background-color: rgba[0, 0, 0];
+      color: white;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    /* Content Styling */
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      max-width: 1200px;
+      margin: auto;
+      padding-top: 80px; /* To prevent content from being hidden under the nav */
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    button {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #4F46E5;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #3730A3;
+    }
+    a {
+      color: #4F46E5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Menu Bar -->
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#papers">Paper Types</a></li>
+    </ul>
+  </nav>
+
+  <h1>HINDUTANI Paper Agency</h1>
+
+  <div class="container">
+    <!-- About Section -->
+    <div id="about" class="card">
+      <h2>About</h2>
+      <p>HINDUTANI Paper Agency is a leading distributor of high-quality paper products, serving clients across the nation with commitment and excellence.</p>
+      <p>For more information, click the below link:</p>
+      <a href="https://t.me/YourTelegramLink" target="_blank">Join our Telegram</a>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: info@hindutanipaper.com</p>
+      <p>Phone: +91-12345-67890</p>
+      <p>Address: 123 Paper Street, Stationery City, India</p>
+    </div>
+
+    <!-- Paper Types Section -->
+    <div id="papers" class="card">
+      <h2>Our Paper Types</h2>
+      <ul>
+        <li><strong>Glossy Paper:</strong> High-quality finish for vivid colors and sharp details, ideal for photography and marketing materials.</li>
+        <li><strong>Matte Paper:</strong> Smooth texture and non-reflective surface, perfect for brochures and business cards.</li>
+        <li><strong>Textured Paper:</strong> Adds depth with various patterns; commonly used in premium stationery and wedding invitations.</li>
+        <li><strong>Recycled Paper:</strong> Environmentally friendly and durable, perfect for printing brochures, books, and everyday office use.</li>
+        <li><strong>Cardstock:</strong> Heavy-weight paper used for business cards, postcards, and other high-impact materials.</li>
+      </ul>
+    </div>
+
+    <!-- Quick Actions Section -->
+    <div class="card">
+      <h2>Quick Actions</h2>
+      <button>Add New User</button>
+      <button>Generate Report</button>
+      <button>Settings</button>
+    </div>
+  </div>
+
+</body>
+</html>
